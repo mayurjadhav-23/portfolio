@@ -1,58 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio - Mayur Jadhav</title>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600&family=Sora:wght@400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="bg-gray-900 text-white font-subtitle">
+    <div class="container mx-auto px-4 md:px-8">
+        <header class="flex justify-between items-center py-6">
+            <h1 class="text-3xl font-bold">Mayur Jadhav</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-green-400">Home</a></li>
+                    <li><a href="about.html" class="hover:text-green-400">About</a></li>
+                    <li><a href="skills.html" class="hover:text-green-400">Skills</a></li>
+                    <li><a href="#" class="hover:text-green-400">Links</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a web developer with a passion for creating interactive and user-friendly websites.</p>
-    </section>
+        <section class="text-center mt-10">
+            <h2 class="text-6xl font-bold font-title text-green-400">Hi, I'm Mayur, a special human with some ability to love learning and working on teamwork.</h2>
+            <div class="flex justify-center mt-16">
+                <div class="flex items-center space-x-5">
+                    <img src="assets/avatar.png" alt="Avatar" class="rounded-full">
+                    <div >
+                        <p class="text-3xl font-semibold mt-1">Biography</p> <br>
+                        <p class="text-xl font-semibold">I'm Mayur Jadhav, a passionate IT professional specializing in,<br> <span class="text-green-500 font-bold">Cybersecurity</span>, <span class="text-blue-400 font-semibold">Cloud computing</span>, and <span class="text-green-500">UI design</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-        </div>
-    </section>
+        <section class="mt-16 text-center">
+            <h3 class="text-2xl font-bold">What I do</h3>
+            <p class="mt-4 max-w-xl mx-auto text-lg">Secure and optimize digital platforms, specialize in cybersecurity and cloud computing, and lead technical initiatives. My motto is: Protection and innovation in perfect harmony.</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
-
-    <script src="script.js"></script>
+        <section class="mt-16">
+            <h3 class="text-3xl font-semibold">Featured Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 hover:shadow-2xl hover:bg-gray-700 transition-transform duration-300 ease-in-out">
+                    <img src="assets/aws.jpg" alt="PC Wakeup Alert" class="w-full">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">PC Wakeup Alert using AWS Cloud</h4>
+                        <p class="mt-2 text-gray-400">This project is a passive automated security tool which sends an email to the user whenever the user's system is turned on. This tool is created using AWS Cloud services and a Python script on the system for triggering the AWS services.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 hover:shadow-2xl hover:bg-gray-700 transition-transform duration-300 ease-in-out">
+                    <img src="assets/sql.jpg" alt="SQL Injection Testing" class="w-full">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">SQL Injection Testing</h4>
+                        <p class="mt-2 text-gray-400">A website where users can learn about SQL and SQL Injection and also practice their skills and knowledge in real-time in the vulnerable platforms on the website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
+
+<footer class="bg-gray-800 text-gray-400 py-4">
+    <div class="max-w-2xl mx-auto px-4 md:px-6 lg:px-6 flex flex-col md:flex-row justify-between items-center">
+        <div class="text-center mb-4 md:mb-0 w-full">
+            <p>&copy; 2024 Mayur Jadhav. All Rights Reserved.</p>
+        </div>
+        
+    </div>
+</footer>
+
 </html>
