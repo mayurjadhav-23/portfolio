@@ -18,9 +18,11 @@ Welcome to my portfolio repository! This repository showcases my professional sk
 To view or contribute to this project, follow these steps:
 
 **Clone this repository:**
-git clone https://github.com/mayurjadhav-23/portfolio.git
+
+    git clone https://github.com/mayurjadhav-23/portfolio.git
 Navigate to the project directory:
-cd portfolio
+
+    cd portfolio
 
 ### Usage
 To view the website locally, open the index.html file in your preferred web browser.
