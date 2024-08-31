@@ -3,10 +3,10 @@
 Welcome to my portfolio repository! This repository showcases my professional skills and projects.
 
 ### Technologies Used
-**HTML**
-**CSS**
-**JavaScript**
-**Tailwind CSS***
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Tailwind CSS**
 
 ### Features
 **Dark Mode Toggle:** Users can switch between dark and light modes for better readability.
