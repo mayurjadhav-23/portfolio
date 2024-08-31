@@ -1,8 +1,6 @@
 # Mayur Jadhav's Portfolio
-Welcome to my portfolio repository! This repository showcases my professional skills, projects, and achievements in cybersecurity, cloud computing, and UI design.
----
-### Introduction
-This repository contains the code for my personal portfolio website. It highlights my work in cybersecurity, cloud computing, and UI design, and features details about my projects, skills, and professional background.
+
+Welcome to my portfolio repository! This repository showcases my professional skills and projects.
 
 ### Technologies Used
 **HTML**
