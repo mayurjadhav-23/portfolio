@@ -9,10 +9,10 @@ Welcome to my portfolio repository! This repository showcases my professional sk
 - **Tailwind CSS**
 
 ### Features
-**Dark Mode Toggle:** Users can switch between dark and light modes for better readability.
-**Responsive Design:** The website is designed to be fully responsive across different devices.
-**Portfolio Sections:** Includes sections for my skills, projects, and professional experiences.
-**Social Media Links:** Connect with me via social media platforms and view my GitHub, LinkedIn profiles.
+- **Dark Mode Toggle:** Users can switch between dark and light modes for better readability.
+- **Responsive Design:** The website is designed to be fully responsive across different devices.
+- **Portfolio Sections:** Includes sections for my skills, projects, and professional experiences.
+- **Social Media Links:** Connect with me via social media platforms and view my GitHub, LinkedIn profiles.
 
 ### Installation
 To view or contribute to this project, follow these steps:
